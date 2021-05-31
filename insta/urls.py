@@ -1,11 +1,11 @@
-from django.conf.urls import url
+from django.conf.urls import url,include
 # from django.urls.conf import path,re_path
 from . import views
 from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-
+    url(r'^accounts/', include('django.contrib.auth.urls')),
     url(r'^$', views.home, name='home'),
     url(r'^image/$', views.image_upload, name='upload'),
     url(r'^profile/$', views.profile_info, name='profile'),

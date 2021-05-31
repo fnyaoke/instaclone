@@ -22,10 +22,10 @@ from django.conf.urls import url
 
 
 urlpatterns = [
-    url(r'^accounts/', include('registration.backends.hmac.urls')),
+    url(r'^accounts/', include('django_registration.backends.activation.urls')),
+    url(r'^accounts/', include('django.contrib.auth.urls')),
     path('admin/', admin.site.urls),
     path(r'', include('insta.urls')),
-    re_path(r'^accounts/', include('django.contrib.auth.urls')),
     re_path(r'^logout/$', views.LogoutView, {"next_page": '/'}),
 
 ]
