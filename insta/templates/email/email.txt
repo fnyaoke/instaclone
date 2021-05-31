@@ -1,0 +1,3 @@
+Hello {{name}}
+
+Welcome to Instaclone. You will find the most exciting ways to connect, share pictures and get updates on your page.
