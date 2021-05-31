@@ -14,8 +14,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include,re_path
+from django.contrib.auth import views
+from django.urls import reverse
+from django.conf.urls import url
+
+
 
 urlpatterns = [
+    url(r'^accounts/', include('registration.backends.hmac.urls')),
     path('admin/', admin.site.urls),
+    path(r'', include('insta.urls')),
+    re_path(r'^accounts/', include('django.contrib.auth.urls')),
+    re_path(r'^logout/$', views.LogoutView, {"next_page": '/'}),
+
 ]
+
+def get_success_url(self):
+    return reverse('insta:profile')
