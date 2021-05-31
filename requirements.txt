@@ -113,4 +113,3 @@ whitenoise==5.2.0
 wrapt==1.12.1
 WTForms==2.3.3
 zipp==3.4.0
-zope.interface==4.3.2
