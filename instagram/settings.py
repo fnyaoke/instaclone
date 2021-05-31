@@ -91,11 +91,13 @@ WSGI_APPLICATION = 'instagram.wsgi.application'
 
 
 # Email configurations remember to install python-decouple
-EMAIL_USE_TLS = config('EMAIL_USE_TLS')
-EMAIL_HOST = config('EMAIL_HOST')
-EMAIL_PORT = config('EMAIL_PORT')
-EMAIL_HOST_USER = config('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = True
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='onedeveloper87@gmail.com'
+EMAIL_HOST_PASSWORD='D3veloper@2021'
+EMAIL_PORT=587
+DEFAULT_FROM_EMAIL='onedeveloper87'
+
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
