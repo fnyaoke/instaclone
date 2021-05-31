@@ -2,6 +2,10 @@
 
 clone of instagram
 
+## Deployed link
+
+View the site at <https://git.heroku.com/instaclone-fn.git>
+
 ## Requirements
 
 Clone the the repository by running
