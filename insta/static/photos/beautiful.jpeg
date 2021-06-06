@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/ -->
+<html class="js js csstransforms csstransforms3d csstransitions" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <script type="text/javascript" async="" src="./beautiful_files/analytics.js"></script><script type="text/javascript" async="" src="./beautiful_files/recaptcha__en_gb.js" crossorigin="anonymous" integrity="sha384-txa9bTabWt56ejmvoOGJxQ2LqJea0VHcCS0wQ1L6Ofo0ru8MKiEXYgi3dqiopUoL"></script><script src="./beautiful_files/lftracker_v1_DzLR5a5ZllZ8BoQ2.js"></script><script async="" src="./beautiful_files/js"></script> <script>window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-76336-2');</script> <script>(function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_DzLR5a5ZllZ8BoQ2.js'); })();</script> <meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="profile" href="http://gmpg.org/xfn/11"><link rel="pingback" href="https://www.inforest.com/xmlrpc.php"><link media="all" href="./beautiful_files/autoptimize_3b9c4177e9356bb67014c02918ab25aa.css" rel="stylesheet"><link media="screen" href="./beautiful_files/autoptimize_ed384bbdb4657e7c8b1cca92796ed487.css" rel="stylesheet"><title>Creating a Responsive, Left-Side Navigation Menu with Bootstrap 4 - Inforest Communications</title><meta name="robots" content="index, follow"><meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"><link rel="canonical" href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/"><meta property="og:locale" content="en_US"><meta property="og:type" content="article"><meta property="og:title" content="Creating a Responsive, Left-Side Navigation Menu with Bootstrap 4 - Inforest Communications"><meta property="og:description" content="Not all websites need to look the same! With a few tweaks, we can use a common Web design framework for a layout that breaks away from the typical. Inforest Communications is in the process of building completed a website design that incorporates a left-side navigation menu in desktop browsers while maintaining a top down …"><meta property="og:url" content="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/"><meta property="og:site_name" content="Inforest Communications"><meta property="article:publisher" content="https://www.facebook.com/inforestcom/"><meta property="article:published_time" content="2019-10-30T17:55:43+00:00"><meta property="article:modified_time" content="2020-01-29T14:36:20+00:00"><meta property="og:image" content="https://www.inforest.com/wp-content/uploads/2019/10/20191030_110957-e1572458096856.jpg"><meta property="og:image:width" content="1024"><meta property="og:image:height" content="1024"><meta name="twitter:card" content="summary"> <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.inforest.com/#organization","name":"inforest communications","url":"https://www.inforest.com/","sameAs":["https://www.facebook.com/inforestcom/"],"logo":{"@type":"ImageObject","@id":"https://www.inforest.com/#logo","inLanguage":"en-US","url":"https://www.inforest.com/wp-content/uploads/2017/07/inforest-logo.gif","width":240,"height":50,"caption":"inforest communications"},"image":{"@id":"https://www.inforest.com/#logo"}},{"@type":"WebSite","@id":"https://www.inforest.com/#website","url":"https://www.inforest.com/","name":"Inforest Communications","description":"Web Design Princeton NJ","publisher":{"@id":"https://www.inforest.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.inforest.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#primaryimage","inLanguage":"en-US","url":"https://www.inforest.com/wp-content/uploads/2019/10/20191030_110957-e1572458096856.jpg","width":1024,"height":1024,"caption":"picture of responsive, left side navigation menu in mobile and desktop views."},{"@type":"WebPage","@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#webpage","url":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/","name":"Creating a Responsive, Left-Side Navigation Menu with Bootstrap 4 - Inforest Communications","isPartOf":{"@id":"https://www.inforest.com/#website"},"primaryImageOfPage":{"@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#primaryimage"},"datePublished":"2019-10-30T17:55:43+00:00","dateModified":"2020-01-29T14:36:20+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/"]}]},{"@type":"Article","@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#article","isPartOf":{"@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#webpage"},"author":{"@id":"https://www.inforest.com/#/schema/person/71c0a904f42f2bb72d3ec81c8ffad8b0"},"headline":"Creating a Responsive, Left-Side Navigation Menu with Bootstrap 4","datePublished":"2019-10-30T17:55:43+00:00","dateModified":"2020-01-29T14:36:20+00:00","commentCount":0,"mainEntityOfPage":{"@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#webpage"},"publisher":{"@id":"https://www.inforest.com/#organization"},"image":{"@id":"https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#primaryimage"},"articleSection":"Developer Notes","inLanguage":"en-US","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#respond"]}]},{"@type":["Person"],"@id":"https://www.inforest.com/#/schema/person/71c0a904f42f2bb72d3ec81c8ffad8b0","name":"Dana Hutchins","image":{"@type":"ImageObject","@id":"https://www.inforest.com/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/cd9b0fec3b9e00da610854781547fcf7?s=96&d=mm&r=g","caption":"Dana Hutchins"},"description":"Dana is founder of Inforest Communications and has over twenty years of Web design and development experience. Dana is involved in all aspects of business development and marketing of the firm, including serving as primary consultant on Internet and Web strategy to Inforest clients. His Web development responsibilities are primarily focused on writing custom modules,themes and plugins to make Drupal and WordPress sites run and look better. He also writes custom Web applications that have been used in online calendaring, e\u00ad-commerce and surveys. Dana\u2019s favorite programming acronyms are PHP, MySQL, CSS3, HTML5 and jQuery. However, what really gets him excited is the opportunity to use these tools to build Web sites that solve business needs and create new opportunities for his clients."}]}</script> <link rel="dns-prefetch" href="https://www.google.com/"><link rel="dns-prefetch" href="https://fonts.googleapis.com/"><link rel="dns-prefetch" href="https://use.fontawesome.com/"><link rel="dns-prefetch" href="https://s.w.org/"><link rel="alternate" type="application/rss+xml" title="Inforest Communications » Feed" href="https://www.inforest.com/feed/"><link rel="alternate" type="application/rss+xml" title="Inforest Communications » Comments Feed" href="https://www.inforest.com/comments/feed/"><link rel="alternate" type="application/rss+xml" title="Inforest Communications » Creating a Responsive, Left-Side Navigation Menu with Bootstrap 4 Comments Feed" href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/feed/"> <script>window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.inforest.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.2"}};
+			/*! This file is auto-generated */
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);</script><script src="./beautiful_files/wp-emoji-release.min.js" type="text/javascript" defer=""></script> <link rel="stylesheet" id="wpb-google-fonts-css" href="./beautiful_files/css" type="text/css" media="all"><link rel="stylesheet" id="font-awesome-official-css" href="./beautiful_files/all.css" type="text/css" media="all" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous"><link rel="stylesheet" id="font-awesome-official-v4shim-css" href="./beautiful_files/v4-shims.css" type="text/css" media="all" integrity="sha384-/EdpJd7d6gGFiQ/vhh7iOjiZdf4+6K4al/XrX6FxxZwDSrAdWxAynr4p/EA/vyPQ" crossorigin="anonymous"><script src="./beautiful_files/c7035.js"></script>
+ <script>var rlArgs = {"script":"swipebox","selector":"lightbox","customEvents":"","activeGalleries":"1","animation":"1","hideCloseButtonOnMobile":"0","removeBarsOnMobile":"0","hideBars":"1","hideBarsDelay":"5000","videoMaxWidth":"1080","useSVG":"1","loopAtEnd":"0","woocommerce_gallery":"0","ajaxurl":"https:\/\/www.inforest.com\/wp-admin\/admin-ajax.php","nonce":"e0cb1b0f1b"};</script> <link rel="https://api.w.org/" href="https://www.inforest.com/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.inforest.com/xmlrpc.php?rsd"><link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.inforest.com/wp-includes/wlwmanifest.xml"><meta name="generator" content="WordPress 5.4.2"><link rel="shortlink" href="https://www.inforest.com/?p=2031"><link rel="alternate" type="application/json+oembed" href="https://www.inforest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.inforest.com%2Fcreating-a-responsive-left-side-navigation-menu-with-bootstrap-4%2F"><link rel="alternate" type="text/xml+oembed" href="https://www.inforest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.inforest.com%2Fcreating-a-responsive-left-side-navigation-menu-with-bootstrap-4%2F&amp;format=xml"> <script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script> <meta name="generator" content="Powered by Slider Revolution 6.1.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface."><link rel="icon" href="https://www.inforest.com/wp-content/uploads/2017/09/cropped-inforest-icon-32x32.png" sizes="32x32"><link rel="icon" href="https://www.inforest.com/wp-content/uploads/2017/09/cropped-inforest-icon-192x192.png" sizes="192x192"><link rel="apple-touch-icon" href="https://www.inforest.com/wp-content/uploads/2017/09/cropped-inforest-icon-180x180.png"><meta name="msapplication-TileImage" content="https://www.inforest.com/wp-content/uploads/2017/09/cropped-inforest-icon-270x270.png"> <script>function setREVStartSize(e){			
+			try {								
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw===0 || isNaN(pw) ? window.innerWidth : pw;
+				e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+				if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+					newh = Math.max(e.mh,window.innerHeight);				
+				else{					
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+					e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+										
+					var nl = new Array(e.rl.length),
+						ix = 0,						
+						sl;					
+					e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+					for (var i in e.rl) nl[i] = e.rl[i]<window.innerWidth ? 0 : e.rl[i];
+					sl = nl[0];									
+					for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+					var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+
+					newh =  (e.type==="carousel" && e.justify==="true" ? e.gh[ix] : (e.gh[ix] * m)) + (e.tabh + e.thumbh);
+				}			
+				
+				if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));					
+				document.getElementById(e.c).height = newh;
+				window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";				
+			} catch(e){
+				console.log("Failure at Presize of Slider:" + e)
+			}					   
+		  };</script> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"></head><body class="post-template-default single single-post postid-2031 single-format-standard wp-embed-responsive sfsi_2.55"><nav id="mainnav" class="navbar navbar-expand-xl navbar-light bg-light" role="navigation"><div class="container"><span class="navbar-brand mb-0 site-title-heading h1">
+<a href="https://www.inforest.com/" title="Inforest Communications" rel="home"><noscript><img
+src=https://www.inforest.com/wp-content/themes/inforest-bootstrap/images/inforest-2017-logo.png border=0 class='img-fluid' alt="Inforest Communications"></noscript><img src="./beautiful_files/inforest-2017-logo.png" data-src="https://www.inforest.com/wp-content/themes/inforest-bootstrap/images/inforest-2017-logo.png" border="0" class="img-fluid lazyloaded" alt="Inforest Communications"></a>
+</span>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bootstrap-basic4-topnavbar" aria-controls="bootstrap-basic4-topnavbar" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button><div id="bootstrap-basic4-topnavbar" class="collapse navbar-collapse"><ul id="menu-primary-navigation" class="navbar-nav ml-auto justify-content-center"><li id="menu-item-1569" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1569 nav-item"><a href="https://www.inforest.com/" class="nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-home">Home</a></li><li id="menu-item-183" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-183 nav-item dropdown"><a href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#" class="dropdown-toggle nav-link  menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a><div class="dropdown-menu">
+<a href="https://www.inforest.com/about-us/" class="dropdown-item  menu-item menu-item-type-post_type menu-item-object-page">About Inforest</a>
+<a href="https://www.inforest.com/about-us/our-process/" class="dropdown-item  menu-item menu-item-type-post_type menu-item-object-page">Our Process</a></div></li><li id="menu-item-1655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1655 nav-item dropdown"><a href="https://www.inforest.com/services/" class="dropdown-toggle nav-link  menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a><div class="dropdown-menu">
+<a href="https://www.inforest.com/services/" class="dropdown-item  menu-item menu-item-type-post_type menu-item-object-page">Website Design and Development</a>
+<a href="https://www.inforest.com/search-engine-optimization-seo-and-internet-marketing/" class="dropdown-item  menu-item menu-item-type-post_type menu-item-object-page">Search Engine Optimization (SEO) and Internet Marketing</a>
+<a href="https://www.inforest.com/ecommerce/" class="dropdown-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children">eCommerce, Shopping Carts and Online Stores</a></div></li><li id="menu-item-1647" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1647 nav-item"><a href="https://www.inforest.com/portfolio" class="nav-link  menu-item menu-item-type-custom menu-item-object-custom">Portfolio</a></li><li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-79 nav-item dropdown"><a href="https://www.inforest.com/resources/" class="dropdown-toggle nav-link  menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a><div class="dropdown-menu">
+<a href="https://www.inforest.com/category/news/" class="dropdown-item  menu-item menu-item-type-taxonomy menu-item-object-category">Inforest News</a>
+<a href="https://www.inforest.com/category/developer-notes/" class="dropdown-item  menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent">Developer Notes</a>
+<a href="https://www.inforest.com/category/internet-marketing/" class="dropdown-item  menu-item menu-item-type-taxonomy menu-item-object-category">Internet Marketing</a>
+<a href="https://www.inforest.com/resources/links/" class="dropdown-item  menu-item menu-item-type-post_type menu-item-object-page">Links</a></div></li><li id="menu-item-1572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1572 nav-item"><a href="https://www.inforest.com/contact-us/" class="nav-link  menu-item menu-item-type-post_type menu-item-object-page">Contact</a></li></ul><div class="float-md-right"></div><div class="clearfix"></div></div></div></nav><div class="int-banner clearfix" id="developer-notes"><div class="container"><h1>Developer Notes</h1></div></div><div class="container page-container"><div id="content" class="site-content row row-with-vspace"><main id="main" class="col-md-12 site-main" role="main"><article id="post-2031" class="post-2031 post type-post status-publish format-standard has-post-thumbnail hentry category-developer-notes"><header class="entry-header"><h1 class="entry-title"><a href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/" rel="bookmark">Creating a Responsive, Left-Side Navigation Menu with Bootstrap 4</a></h1><div class="entry-meta">
+<span class="posted-on">Posted on <a href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/" title="5:55 pm" rel="bookmark"><time class="entry-date published" datetime="2019-10-30T17:55:43+00:00">October 30, 2019</time><time class="updated" datetime="2020-01-29T14:36:20+00:00">January 29, 2020</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://www.inforest.com/author/dana-hutchins/" title="View all posts by Dana Hutchins">Dana Hutchins</a></span></span></div></header><div class="entry-content"><p>Not all websites need to look the same!  With a few tweaks, we can use a common Web design framework for a layout that breaks away from the typical.</p><p>Inforest Communications <span style="text-decoration: line-through;" class="ugb-highlight">is in the process of building</span> completed a <a href="https://www.inforest.com/portfolio/acupuncture-therapy/">website design that incorporates a left-side navigation menu in desktop browsers</a> while maintaining a top down menu for mobile users.  While this type of layout is unusual in this day and age, we are still able to utilize our favorite, <a rel="noreferrer noopener" aria-label="Bootstrap 4 HTML Framework (opens in a new tab)" href="https://getbootstrap.com/" target="_blank">Bootstrap 4 HTML Framework</a>, with a few minor changes.</p><p>Bootstrap 4 provides a starting point for <a href="https://www.inforest.com/best-practices-mobile-friendly-web-design/">Web designers to build “Responsive,” “Mobile-Friendly” websites</a>.  The term, “Responsive,” is used to describe a technique where the layout of the site “responds” to the screen width of the web browser viewing it.  In the case of smartphones, the screen is typically more narrow than that of a desktop, so the website design “responds” and changes the layout to a single column.</p><p><em>Actually, the process is reversed.  Bootstrap 4 is “mobile first,” and starts out with a single column by default and then expands to wider screens, -but you get the idea.</em></p><p>For our left-side navigation layout, we divide the website into two main columns.  The first column houses the site logo and navigation, and the second column the bulk of the website content.  Using Bootstrap 4’s grid system, the code basically looks like this:</p><pre class="wp-block-code"><code>&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-md-3"&gt;
+      &lt;nav class="navbar navbar-expand-md navbar-light"&gt;
+        &lt;a href="./" title="Website Title" rel="home"&gt;&lt;img src="logo.png" class="logo" border="0" alt="Website"/&gt;&lt;/a&gt;
+        &lt;button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar" aria-controls="topnavbar" aria-expanded="false" aria-label="Toggle navigation"&gt;
+          &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div id="topnavbar" class="collapse navbar-collapse"&gt;
+          &lt;ul id="menu-main-menu" class="navbar-nav flex-column"&gt;
+            ...navigation links...
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+    &lt;div class="col-md"&gt;
+      ...content...
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre><p>We then have to make a few key changes in order to make this work properly:</p><ol><li>Because of the narrow size of the column, the “hamburger” menu icon button shows on desktop browsers, thus we must hide it in our stylesheet:</li></ol><pre class="wp-block-code"><code>@media (min-width: 768px), all {
+  .navbar-expand-md .navbar-toggler {
+    display: none;
+  }
+}</code></pre><ol start="2"><li>By default, the menu links will be shown as a row, so we add a Bootstrap class, “flex-column” to the UL tag in order make these display vertically in a column:</li></ol><pre class="wp-block-code"><code>&lt;ul id="menu-main-menu" class="navbar-nav flex-column"&gt;</code></pre><ol start="3"><li>We also add a style to the &lt;nav&gt; container to display the contents in a column as well:</li></ol><pre class="wp-block-code"><code>.navbar-expand-md{
+  -ms-flex-flow: column wrap !important;
+  flex-flow: column wrap !important;
+ }</code></pre><p>The result is a layout that starts as a single column in mobile with a typical Bootstrap hamburger menu for navigation, but will turn into a two column layout with a vertical navigation bar when the browser width is larger than 768 pixels.</p><p>Thus, we satisfy the needs for both mobile and desktop users, allowing us to develop a website layout for desktop users that breaks away from the typical horizontal menu layout, -giving us a break from the ordinary!</p><div class="clearfix"></div></div><footer class="entry-meta"><div class="entry-meta-category-tag">
+<span class="cat-links">
+<span class="categories-icon fas fa-th-list" title="Posted in"></span> <a href="https://www.inforest.com/category/developer-notes/" rel="category tag">Developer Notes</a>  </span></div><div class="entry-meta-comment-tools">
+<span class="comments-link"><a href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#respond" class="btn btn-light btn-sm"><i class="comment-icon fas fa-comment"></i> <small class="comment-total">0</small></a></span></div></footer></article><section id="comments" class="comments-area"><div id="respond" class="comment-respond"><h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/#respond" style="display:none;">Cancel reply</a></small></h3><p class="must-log-in">You must be <a href="https://www.inforest.com/wp-login.php?redirect_to=https%3A%2F%2Fwww.inforest.com%2Fcreating-a-responsive-left-side-navigation-menu-with-bootstrap-4%2F">logged in</a> to post a comment.</p></div></section></main></div><div id="add" class="row row-with-vspace"><div class="col-md-12"><div class="about-profile"><h4>About Dana Hutchins</h4>
+<noscript><img
+src class="pull-right img-fluid"></noscript><img src="https://www.inforest.com/creating-a-responsive-left-side-navigation-menu-with-bootstrap-4/" class="pull-right img-fluid lazyloaded" loading="lazy">Dana is founder of Inforest Communications and has over twenty years of Web design and development experience. Dana is involved in all aspects of business development and marketing of the firm, including serving as primary consultant on Internet and Web strategy to Inforest clients. His Web development responsibilities are primarily focused on writing custom modules,themes and plugins to make Drupal and WordPress sites run and look better. He also writes custom Web applications that have been used in online calendaring, e­-commerce and surveys.Dana’s favorite programming acronyms are PHP, MySQL, CSS3, HTML5 and jQuery. However, what really gets him excited is the opportunity to use these tools to build Web sites that solve business needs and create new opportunities for his clients.</div></div></div></div><div class="forest-ban"></div><footer id="site-footer" class="site-footer page-footer" role="contentinfo"><div class="container"><div class="row"><div class="col-md-4 footer-left text-left"><aside id="custom_html-2" class="widget_text widget widget_custom_html"><h3 class="widget-title">Contact Us</h3><div class="textwidget custom-html-widget"><p>145 Witherspoon St <br>
+Princeton , NJ 08542</p><p>888.706.1380 <br>
+(609) 921 - 9213<br>
+<a href="mailto:studio@inforest.com">studio@inforest.com</a></p></div></aside></div><div class="col-md-4 footer-center text-left"><aside id="recent-posts-2" class="widget widget_recent_entries"><h3 class="widget-title">What’s New</h3><ul><li>
+<a href="https://www.inforest.com/using-google-data-studio-for-interactive-graphs/">Using Google Data Studio for Interactive Graphs</a></li><li>
+<a href="https://www.inforest.com/common-wordpress-editing-issues/">Common WordPress Editing Issues</a></li><li>
+<a href="https://www.inforest.com/steam-labs-obs-facebook-streaming-fixes/">Streamlabs OBS Facebook Streaming Fixes</a></li></ul></aside></div><div class="col-md-4 footer-right text-left"><aside id="simple-social-icons-2" class="widget simple-social-icons"><h3 class="widget-title">Connect With Us!</h3><ul class="alignleft"><li class="ssi-facebook"><a href="https://www.facebook.com/inforestcom" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-facebook" aria-labelledby="social-facebook-2"><title id="social-facebook-2">Facebook</title><use xlink:href="https://www.inforest.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-facebook"></use></svg></a></li><li class="ssi-instagram"><a href="https://www.instagram.com/inforestcom/" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-instagram" aria-labelledby="social-instagram-2"><title id="social-instagram-2">Instagram</title><use xlink:href="https://www.inforest.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-instagram"></use></svg></a></li><li class="ssi-linkedin"><a href="https://www.linkedin.com/company/1252057/" target="_blank" rel="noopener noreferrer"><svg role="img" class="social-linkedin" aria-labelledby="social-linkedin-2"><title id="social-linkedin-2">LinkedIn</title><use xlink:href="https://www.inforest.com/wp-content/plugins/simple-social-icons/symbol-defs.svg#social-linkedin"></use></svg></a></li></ul></aside></div></div></div></footer><div class="copy"><div class="container"><p>© 2020 Inforest Communications</p></div></div> <script>window.addEventListener('sfsi_functions_loaded', function() {
+    if (typeof sfsi_responsive_toggle == 'function') {
+        sfsi_responsive_toggle(0);
+        // console.log('sfsi_responsive_toggle');
+
+    }
+})</script> <script>window.addEventListener('sfsi_functions_loaded', function() {
+            if (typeof sfsi_plugin_version == 'function') {
+                sfsi_plugin_version(2.55);
+            }
+        });
+
+        function sfsi_processfurther(ref) {
+            var feed_id = '';
+            var feedtype = 8;
+            var email = jQuery(ref).find('input[name="email"]').val();
+            var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+            if ((email != "Enter your email") && (filter.test(email))) {
+                if (feedtype == "8") {
+                    var url = "https://api.follow.it/subscription-form/" + feed_id + "/" + feedtype;
+                    window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+                    return true;
+                }
+            } else {
+                alert("Please enter email address");
+                jQuery(ref).find('input[name="email"]').focus();
+                return false;
+            }
+        }</script> <script>function atomicBlocksShare( url, title, w, h ){
+			var left = ( window.innerWidth / 2 )-( w / 2 );
+			var top  = ( window.innerHeight / 2 )-( h / 2 );
+			return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600, height=600, top='+top+', left='+left);
+		}</script> <noscript><style>.lazyload{display:none;}</style></noscript><script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async="" src="./beautiful_files/f9fb9.js"></script>
+<script>var Getwid = {"settings":{"date_time_utc":"2020-11-29 08:31:35","google_api_key":""},"ajax_url":"https:\/\/www.inforest.com\/wp-admin\/admin-ajax.php","nonces":{"recaptcha_v2_contact_form":"00dfb634a4"}};</script> <script>var wpcf7 = {"apiSettings":{"root":"https:\/\/www.inforest.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};</script> <script>var sfsi_icon_ajax_object = {"ajax_url":"https:\/\/www.inforest.com\/wp-admin\/admin-ajax.php"};
+var sfsi_icon_ajax_object = {"ajax_url":"https:\/\/www.inforest.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/www.inforest.com\/wp-content\/plugins\/ultimate-social-media-icons\/"};</script> <script src="./beautiful_files/api.js"></script> <script>( function( grecaptcha, sitekey, actions ) {
+
+	var wpcf7recaptcha = {
+
+		execute: function( action ) {
+			grecaptcha.execute(
+				sitekey,
+				{ action: action }
+			).then( function( token ) {
+				var forms = document.getElementsByTagName( 'form' );
+
+				for ( var i = 0; i < forms.length; i++ ) {
+					var fields = forms[ i ].getElementsByTagName( 'input' );
+
+					for ( var j = 0; j < fields.length; j++ ) {
+						var field = fields[ j ];
+
+						if ( 'g-recaptcha-response' === field.getAttribute( 'name' ) ) {
+							field.setAttribute( 'value', token );
+							break;
+						}
+					}
+				}
+			} );
+		},
+
+		executeOnHomepage: function() {
+			wpcf7recaptcha.execute( actions[ 'homepage' ] );
+		},
+
+		executeOnContactform: function() {
+			wpcf7recaptcha.execute( actions[ 'contactform' ] );
+		},
+
+	};
+
+	grecaptcha.ready(
+		wpcf7recaptcha.executeOnHomepage
+	);
+
+	document.addEventListener( 'change',
+		wpcf7recaptcha.executeOnContactform, false
+	);
+
+	document.addEventListener( 'wpcf7submit',
+		wpcf7recaptcha.executeOnHomepage, false
+	);
+
+} )(
+	grecaptcha,
+	'6LfVh8IUAAAAAI8mtieUJ3pJtRHXnS2B-knRncGa',
+	{"homepage":"homepage","contactform":"contactform"}
+);</script>  <script defer="" src="./beautiful_files/1e1f0.js"></script>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 4/301 objects using disk
+Page Caching using disk: enhanced 
+Minified using disk
+Database Caching 2/160 queries in 0.190 seconds using disk
+
+Served from: www.inforest.com @ 2020-11-29 08:31:35 by W3 Total Cache
+--><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe src="./beautiful_files/anchor.html" width="256" height="60" role="presentation" name="a-pf8gdxjxo5r1" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./beautiful_files/saved_resource.html"></iframe></div></body></html>
