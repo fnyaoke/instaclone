@@ -1,3 +1,2 @@
-Hello {{name}}
-
-Welcome to Instaclone. You will find the most exciting ways to connect, share pictures and get updates on your page.
+Hello &#x1F60a {{name}}
+    Welcome to my Instagram clone Application

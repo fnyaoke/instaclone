@@ -1,23 +1,20 @@
 from django import forms
-from . models import Image,Profile,Comments, User
-# from .forms import RegistrationForm
+from .models import Profile,Image,Comments
 
 
-# class UserForm(RegistrationForm):
-    # class Meta:
-        # model = User
-
-class ImageUploadForm(forms.ModelForm):
-    class Meta:
-        model = Image
-        exclude = ['profile','likes','comments','user']
-
-class ImageProfileForm(forms.ModelForm):
+class ProfileForm(forms.ModelForm):
     class Meta:
         model = Profile
-        exclude = ['user',]
+        exclude=['user']
+
+
+class ImageForm(forms.ModelForm):
+    class Meta:
+        model = Image
+        exclude =[ 'profile', 'like_add', 'date_uploaded','vote_score', 'num_vote_up', 'num_vote_down',]
+
 
 class CommentForm(forms.ModelForm):
     class Meta:
         model = Comments
-        exclude = ['user','image','date_posted']
+        exclude = ['image','user']
