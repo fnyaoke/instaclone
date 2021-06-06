@@ -101,7 +101,7 @@ def search_user(request):
     if 'search_user' in request.GET and request.GET["search_user"]:
 
         search_term = request.GET.get("search_user")
-        searched_user = User.objects.filter(username__icontains=search_term)
+        searched_user = User.objects.filter(name__icontains=search_term)
         message = f"{search_term}"
         return render(request, 'gram/search_results.html', {"message": message, "users": searched_user})
 

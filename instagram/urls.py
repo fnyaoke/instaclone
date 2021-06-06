@@ -18,12 +18,14 @@ from django.urls import path, include,re_path
 from django.contrib.auth import views
 from django.urls import reverse
 from django.conf.urls import url
+from django_registration.backends.activation.views import RegistrationView
 
 
 
 urlpatterns = [
     url(r'^accounts/', include('django_registration.backends.activation.urls')),
     url(r'^accounts/', include('django.contrib.auth.urls')),
+    path('accounts/register', RegistrationView.as_view(success_url='/accounts/login/'), include('django_registration.backends.activation.urls')),
     path('admin/', admin.site.urls),
     path(r'', include('insta.urls')),
     re_path(r'^logout/$', views.LogoutView, {"next_page": '/'}),
@@ -31,4 +33,4 @@ urlpatterns = [
 ]
 
 def get_success_url(self):
-    return reverse('insta:profile')
+    return reverse('instagram:profile')

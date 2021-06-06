@@ -5,7 +5,7 @@ from django.core.mail import EmailMultiAlternatives
 def send_welcome_email(name, receiver):
     # Creating message subject and sender
     subject = 'Welcome to Instaclone'
-    sender = 'fnyaoke@gmail.com'
+    sender = 'onedeveloper87@gmail.com'
 
     # passing in the context vairables
     text_content = render_to_string('email/email.txt', {"name": name})
