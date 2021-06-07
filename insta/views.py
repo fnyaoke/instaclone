@@ -75,10 +75,10 @@ def index(request):
     posts = Image.get_all_images()
     comments = Comments.objects.all()
     profile = Profile.get_all_profiles()
-    
-    
+
+
     return render(request, 'all/index.html', locals())
-    
+
 @login_required(login_url='/registration/login/')
 def add_image(request):
         current_user = request.user
@@ -101,10 +101,10 @@ def profile_info(request):
         # people_following = Follow.objects.following(request.user)
         profile = Profile.objects.filter(user=current_user).first()
         posts = request.user.image_set.all()
-       
+
         return render(request, 'userProfile.html', {"images": posts, "profile": profile})
 
-@login_required(login_url='/accounts/login/') 
+@login_required(login_url='/accounts/login/')
 def profile_update(request):
          current_user = request.user
          if request.method == 'POST':
@@ -118,7 +118,7 @@ def profile_update(request):
                 form = ProfileForm()
          return render(request,'django_registration/profile_update.html',{"form":form})
 
-@login_required(login_url='/accounts/login/') 
+@login_required(login_url='/accounts/login/')
 def comment(request,image_id):
         current_user=request.user
         image = Image.objects.get(id=image_id)
@@ -132,12 +132,12 @@ def comment(request,image_id):
                         comment.image = image
                         comment.user = request.user
                         comment.save()
-            
-                       
+
+
                 return redirect('home')
         else:
                 form = CommentForm()
-        return render(request, 'comment.html',locals())   
+        return render(request, 'comment.html',locals())
 
 @login_required(login_url='/accounts/login/')
 def search_results(request):
@@ -157,8 +157,7 @@ def search(request):
         search_term = request.GET.get('username')
         results = User.objects.filter(username__icontains=search_term)
         return render(request,'search.html',locals())
-    return redirect('home')  
-
+    return redirect('home')
 def follow(request, user_id):
     other_user = User.objects.get(id = user_id)
     follow = Follow.objects.add_follower(request.user, other_user)
