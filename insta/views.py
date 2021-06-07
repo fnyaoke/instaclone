@@ -34,7 +34,8 @@ class LoginView(auth_views.LoginView):
 
 class LogoutView(LoginRequiredMixin, auth_views.LogoutView):
     """Logout View."""
-
+    template_name = 'registration/login.html'
+    redirect_authenticated_user = True
 class UpdateProfileView(LoginRequiredMixin, UpdateView):
     """Update a user's profile view"""
     template_name = 'update_profile.html'
@@ -123,7 +124,7 @@ def comment(request,image_id):
         image = Image.objects.get(id=image_id)
         profile_owner = User.objects.get(username=current_user.username)
         comments = Comments.objects.all()
-        
+
         if request.method == 'POST':
                 form = CommentForm(request.POST, request.FILES)
                 if form.is_valid():
