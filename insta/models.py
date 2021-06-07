@@ -4,7 +4,6 @@ from tinymce.models import HTMLField
 from django.utils import timezone
 from django.contrib.auth.models import User
 from cloudinary.forms import cl_init_js_callbacks
-import cloudinary
 from cloudinary.models import CloudinaryField
 
 
